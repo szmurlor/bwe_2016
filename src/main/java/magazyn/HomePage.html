@@ -1,5 +1,24 @@
 <wicket:extend>
 <h1>Lista dostaw</h1>
-
+<table class="table">
+    <thead>
+        <th>L.p.</th>
+        <th>Data</th>
+        <th>Stanowisko BWE</th>
+        <th>Nr rejestracyjny</th>
+        <th>Rodzaj pojazdu</th>
+        <th>Liczba palet</th>
+    </thead>
+    <tbody>
+        <tr wicket:id="list">
+            <td wicket:id="idx"></td>
+            <td wicket:id="data"></td>
+            <td wicket:id="stanowisko"></td>
+            <td wicket:id="nrrej"></td>
+            <td wicket:id="rodzajpojazdu"></td>
+            <td wicket:id="liczbapalet"></td>
+        </tr>
+    </tbody>
+</table>
 
 </wicket:extend>
